@@ -1,123 +1,46 @@
 ---
 layout: default
+date:   2018-09-30 21:28:10 -0400
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+I'm a PhD student in Computer Science at U Mass Amherst, advised by Prof. Andrew McCallum. Previously, I completed my MS in Computer Science at Stanford, advised by Prof. Chris Manning.
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+My research interests are in Natural Language Processing. I've worked on projects in lexical semantics, evaluating word embeddings, and Natural Language Generation (deep learning-aided and otherwise!)
 
 
-### Definition lists can be used with HTML syntax.
+This is me:
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+<img src="/NehaNayak_photo.PNG" alt="Photo of Neha Nayak" width="300"/>   
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+## Papers
 
-```
-The final element.
-```
+
+**To Plan or Not to Plan? Sequence to sequence generation for language generation in dialogue systems**  
+Neha Nayak, Dilek Hakkani-Tur, Marilyn Walker, Larry Heck  
+INTERSPEECH 2017 (2017)
+
+\[[bibtex](https://drive.google.com/open?id=1Hrv9fpOWfsLcWeJsdq44w-wAYbb2r4vU)\]
+\[[paper](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/1525.PDF
+)\] \[[poster](https://drive.google.com/file/d/18ZHukJwTiTZihb_RC4hsCxFsPjeyvKt6/view
+)\] [resources]
+
+
+**Combining Natural Logic and Shallow Reasoning for Question Answering.**  
+Gabor Angeli, Neha Nayak, Chris Manning  
+Association for Computational Linguistics (ACL). 2016
+
+\[[bibtex](http://aclweb.org/anthology/P/P16/P16-1042.bib)\]
+\[[paper](http://aclweb.org/anthology/P/P16/P16-1042.pdf
+)\] 
+
+
+**Evaluating Word Embeddings Using a Representative Suite of Practical Tasks**  
+Neha Nayak, Gabor Angeli, Chris Manning  
+First Workshop on Evaluating Vector Space Representations for NLP (RepEval). 2016
+
+\[[bibtex](https://drive.google.com/file/d/1dkjGwPyid6evakkbz9GIlxk5fDogsbgv/view)\]
+\[[paper](https://drive.google.com/file/d/1oc0novNuuTWD2_7b-diK8f21eCZvZ0tA/view
+)\] \[[slides](https://drive.google.com/file/d/0BxJ4PgeodTcjdmw0b0o2ZVQtZllFSWtSbHJZa0QwUEdySWNN/view
+)\] \[[code](https://github.com/NehaNayak/veceval
+)\] \[[website](http://www.veceval.com
+) \]
