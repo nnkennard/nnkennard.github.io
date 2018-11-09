@@ -3,7 +3,7 @@ I'm a PhD student in Computer Science at UMass Amherst, advised by [Prof. Andrew
 Most recently, I worked on deep learning for dialogue at Google Research. Before
 that, I worked on learning word vectors that encoded challenging lexical relations, especially hypernymy, and then interrogated what they actually did encode with [VecEval](http://www.veceval.com).
  
-Currently, I'm making use of my familiarity with hypernyms to align biolemdical ontologies. Over the rest of my PhD I look forward to thinking more deeply about compositional representations and developing representations whose geometric properties better reflect the semantics of human language.
+Currently, I'm making use of my familiarity with hypernyms to align biomedical ontologies. Over the rest of my PhD I look forward to thinking more deeply about compositional representations and developing representations whose geometric properties better reflect the semantics of human language.
 
 <h2> Publications </h2>
 {% for post in site.publications reversed %}
