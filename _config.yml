@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Neha Nayak"
-  avatar           : "files/NehaNayak_photo.jpg"
+  avatar           : "NehaNayak_photo.jpg"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Amherst, MA USA"
   employer         :
