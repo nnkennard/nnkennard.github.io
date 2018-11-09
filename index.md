@@ -1,11 +1,10 @@
-I'm a PhD student in Computer Science at U Mass Amherst, advised by [Prof. Andrew McCallum](https://people.cs.umass.edu/~mccallum/). Previously, I completed my MS in Computer Science at Stanford, advised by [Prof. Chris Manning](https://nlp.stanford.edu/~manning/), and compeleted my Bachelor's thesis at the Institute for Natural Language Processing in Stuttgart, supervised by [PD Dr. Sabine Schulte im Walde](http://www.schulteimwalde.de/).
+I'm a PhD student in Computer Science at UMass Amherst, advised by [Prof. Andrew McCallum](https://people.cs.umass.edu/~mccallum/). Previously, I completed my MS in Computer Science at Stanford, advised by [Prof. Chris Manning](https://nlp.stanford.edu/~manning/), and compeleted my Bachelor's thesis at the Institute for Natural Language Processing in Stuttgart, supervised by [PD Dr. Sabine Schulte im Walde](http://www.schulteimwalde.de/).
 
 Most recently, I worked on deep learning for dialogue at Google Research. Before
-that, I  trying to encode lexical relations in vector
-representations of words, especially hypernymy (my favorite!)
-
-Currently, I'm working aligning biomedical ontologies (more hypernyms! :-)), and
-over the rest of my PhD look forward to thinking more deeply about 
+that, I tried to get word vectors to encode lexical relations, especially 
+hypernymy, and then looked into what they actually did encode with [VecEval](http://www.veceval.com).
+ 
+Currently, I'm making use of my familiarity with hypernyms to align biolemdical ontologies. Over the rest of my PhD I look forward to thinking more deeply about compositional representations and developing representations whose geometric properties better reflect the semantics of human language.
 
 <h2> Publications </h2>
 {% for post in site.publications reversed %}
