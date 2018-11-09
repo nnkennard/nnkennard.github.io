@@ -6,5 +6,5 @@ permalink: /publication/2009-10-01-paper-title-number-1
 date: 2017
 venue: "INTERSPEECH 2017 (2017)"
 ---
-[paper](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.pdf.pdf)
-[bibtex](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.bib.pdf)
+[paper](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.pdf)
+[bibtex](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.bib)
