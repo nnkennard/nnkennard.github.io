@@ -1,10 +1,11 @@
-
 ---
 title: "To Plan or not to Plan? Discourse planning in slot-value informed sequence to sequence models for language generation"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-date: 2017
-venue: "INTERSPEECH 2017 (2017)"
+date: 2017-08-01
 ---
-[paper](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.pdf)
-[bibtex](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.bib)
+<b>To Plan or not to Plan? Discourse planning in slot-value informed sequence to sequence models for language generation</b> <br>
+Neha Nayak, Dilek Hakkani-Tur, Marilyn Walker, Larry Heck<br>
+INTERSPEECH 2017 (2017)<br>
+[\[paper\]](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.pdf)
+[\[bibtex\]](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017.bib)
+[\[poster\]](http://nayakneha.github.io/files/NayakEtAl_Interspeech_2017_poster.pdf)
