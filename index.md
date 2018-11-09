@@ -5,6 +5,10 @@ that, I worked on learning word vectors that encoded challenging lexical relatio
  
 Currently, I'm making use of my familiarity with hypernyms to align biomedical ontologies. Over the rest of my PhD I look forward to thinking more deeply about compositional representations and developing representations whose geometric properties better reflect the semantics of human language.
 
+
+Here is my [resume](http://nayakneha.github.io/files/NehaNayak_Resume_Aug_2018.pdf).
+
+
 <h2> Publications </h2>
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
