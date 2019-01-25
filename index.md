@@ -1,4 +1,4 @@
-I'm a PhD student in Computer Science at UMass Amherst, advised by [Prof. Andrew McCallum](https://people.cs.umass.edu/~mccallum/). Previously, I completed my MS in Computer Science at Stanford, advised by [Prof. Chris Manning](https://nlp.stanford.edu/~manning/), and compeleted my Bachelor's thesis at the Institute for Natural Language Processing in Stuttgart, supervised by [PD Dr. Sabine Schulte im Walde](http://www.schulteimwalde.de/).
+I'm a PhD student in Computer Science at UMass Amherst, advised by [Prof. Andrew McCallum](https://people.cs.umass.edu/~mccallum/). Previously, I completed my MS in Computer Science at Stanford, advised by [Prof. Chris Manning](https://nlp.stanford.edu/~manning/), and completed my Bachelor's thesis at the Institute for Natural Language Processing in Stuttgart, supervised by [PD Dr. Sabine Schulte im Walde](http://www.schulteimwalde.de/).
 
 Most recently, I worked on deep learning for dialogue at Google Research. Before
 that, I worked on learning word vectors that encoded challenging lexical relations, especially hypernymy, and then interrogated what they actually did encode with [VecEval](http://www.veceval.com).
