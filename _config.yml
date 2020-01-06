@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Neha Nayak"
+title                    : "Neha Kennard"
 title_separator          : "-"
-name                     : &name "Neha Nayak"
+name                     : &name "Neha Kennard"
 description              : &description "Graduate Student at UMass Amherst"
 url                      : https://nnkennard.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -86,7 +86,7 @@ author:
   location         : "Amherst, MA USA"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=RpIHn88AAAAJ"
-  email            : "nnayak <br/>
+  email            : "kennard <br/>
   at cs dot umass dot edu" 
   uri              :
   bitbucket        :
@@ -107,7 +107,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "nayakne"
+  twitter          : "nnkennard"
   vine             :
   weibo            :
   xing             :
