@@ -11,9 +11,9 @@ title                    : "Neha Nayak"
 title_separator          : "-"
 name                     : &name "Neha Nayak"
 description              : &description "Graduate Student at UMass Amherst"
-url                      : https://nayakneha.github.io 
+url                      : https://nnkennard.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "nayakneha/nayakneha.github.io"
+repository               : "nnkennard/nnkennard.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -95,7 +95,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "nayakneha"
+  github           : "nnkennard"
   google_plus      :
   keybase          :
   instagram        :
