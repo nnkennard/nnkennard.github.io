@@ -2,8 +2,8 @@ I'm a PhD student in Computer Science at UMass Amherst, advised by [Prof. Andrew
 
 Most recently, I worked on deep learning for dialogue at Google Research. Before
 that, I worked on learning word vectors that encoded challenging lexical relations, especially hypernymy, and then interrogated what they actually did encode with [VecEval](http://www.veceval.com).
- 
-Currently, I'm making use of my familiarity with hypernyms to align biomedical ontologies. Over the rest of my PhD I look forward to thinking more deeply about compositional representations and developing representations whose geometric properties better reflect the semantics of human language.
+
+Currently, I'm working on problems in discourse structure at the document level. I'm particularly interested in understanding the interactions that take place during peer review through the lens of discourse. My hope is that this work will contribute to making peer review more transparent and equitable.
 
 
 Here is my [resume](http://nnkennard.github.io/files/Kennard_Resume_Nov2020.pdf).
