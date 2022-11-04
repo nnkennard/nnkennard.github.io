@@ -20,3 +20,4 @@ that, I worked on learning word vectors that encoded challenging lexical relatio
 
 Currently, I'm working on problems in discourse structure at the document level. I'm particularly interested in understanding the interactions that take place during peer review through the lens of discourse. My hope is that this work will contribute to making peer review more transparent and equitable.
 
+Here is a link to my [resume](https://github.com/nnkennard/nnkennard.github.io/raw/master/files/nnkennard_resume_202210.pdf).
