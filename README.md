@@ -1,6 +1,6 @@
 # Neha's note to self
 
-To update, switch to `main`, update `_bibliography/papers.bib` and, if a new year, ` _pages/publications.md`. Commit and run `./bin/deplot`
+To update, switch to `main`, update `_bibliography/papers.bib` and, if a new year, ` _pages/publications.md`. Commit and run `./bin/deploy`
 
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
