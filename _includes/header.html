@@ -1,0 +1,12 @@
+<header class="d-flex flex-column flex-md-row align-items-center mb-1 border-bottom">
+  <div>
+    <a href="{{ site.github.url }}/" class="d-flex align-items-center text-decoration-none">
+      <span class="fs-5">{{ site.title }}</span>
+    </a>
+  </div>
+  <nav class="d-inline-flex  mt-md-0 ms-md-auto">
+    {% for item in site.data.settings.menu %}
+      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</header>

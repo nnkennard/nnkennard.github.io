@@ -1,0 +1,12 @@
+menu:
+- {name: 'publications', url: '/pages/publications'}
+- {name: 'cv', url: '/pages/cv'}
+- {name: 'contact', url: '/pages/contact'}
+
+social:
+- { name: 'Email', link: 'mailto:kennard@cs.umass.edu'}
+- { name: 'Github', link: 'https://nnkennard.github.io'}
+- { name: 'Bluesky', link: 'https://bsky.app/profile/nnkennard.bsky.social'}
+- { name: 'Google Scholar', link: 'https://scholar.google.com/citations?user=RpIHn88AAAAJ'}
+- { name: 'Semantic Scholar', link: 'https://www.semanticscholar.org/author/Neha-Nayak-Kennard/144012209'}
+- { name: 'LinkedIn', link: 'https://www.linkedin.com/in/neha-kennard-53a563a1/'}

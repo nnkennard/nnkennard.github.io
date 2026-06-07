@@ -1,0 +1,48 @@
+$backgroundColor: #ffffff;
+$bodyColor: #404040;
+$linkColor: #c06c84 !important;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+
+
+$bodyFont: "Lato"; 
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  color: $bodyColor;
+}
+
+h2 {
+  margin: 0 0 15px 0;
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  font-weight: normal;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+body a {
+  color: $linkColor;
+  text-decoration: none;
+
+}
+
+
