@@ -3,3 +3,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Neha Nayak Kennard" # the name of your site, e.g. ACME Corp.
 #description: "a Jekyll theme for academia"
 
+
+collections:
+  projects:
+    output: true

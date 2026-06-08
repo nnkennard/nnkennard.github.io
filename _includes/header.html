@@ -5,8 +5,17 @@
     </a>
   </div>
   <nav class="d-inline-flex  mt-md-0 ms-md-auto">
+
+    {{permalink}}
     {% for item in site.data.settings.menu %}
-      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+
+      {% if page.permalink == '/' %}
+        {% assign linkcolor = "#c06c84"%}
+      {% else %}
+        {% assign linkcolor = "#404040"%}
+      {% endif %}
+
+      <a class="me-3 py-2 text-decoration-none" style="{{ linkcolor | prepend: 'color:' | append: ';'}}" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
 </header>

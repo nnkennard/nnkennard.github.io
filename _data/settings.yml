@@ -1,5 +1,6 @@
 menu:
 - {name: 'publications', url: '/pages/publications'}
+- {name: 'teaching', url: '/pages/teaching'}
 - {name: 'cv', url: '/pages/cv'}
 - {name: 'contact', url: '/pages/contact'}
 
@@ -10,3 +11,8 @@ social:
 - { name: 'Google Scholar', link: 'https://scholar.google.com/citations?user=RpIHn88AAAAJ'}
 - { name: 'Semantic Scholar', link: 'https://www.semanticscholar.org/author/Neha-Nayak-Kennard/144012209'}
 - { name: 'LinkedIn', link: 'https://www.linkedin.com/in/neha-kennard-53a563a1/'}
+
+credits:
+- { name: 'the academic jekyll template', link: 'https://github.com/LeNPaul/academic'}
+- { name: 'al-folio', link: 'https://github.com/alshedivat/al-folio'}
+- { name: 'Jon Barron', link: 'https://github.com/jonbarron/jonbarron.github.io/'}

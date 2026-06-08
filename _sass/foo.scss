@@ -1,6 +1,6 @@
 $backgroundColor: #ffffff;
 $bodyColor: #404040;
-$linkColor: #c06c84 !important;
+$linkColor: #c06c84;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
@@ -45,4 +45,13 @@ body a {
 
 }
 
+a:focus,
+a:hover {
+  color: #6c5b7b;
+  text-decoration: none;
+}
 
+
+.teachingtitle {
+    font-style: italic;
+}
