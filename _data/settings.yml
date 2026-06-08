@@ -2,7 +2,6 @@ menu:
 - {name: 'publications', url: '/publications'}
 - {name: 'teaching', url: '/teaching'}
 - {name: 'cv', url: '/cv'}
-- {name: 'contact', url: '/contact'}
 
 social:
 - { name: 'Email', link: 'mailto:kennard@cs.umass.edu'}
