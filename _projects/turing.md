@@ -1,7 +1,7 @@
 ---
 layout: teaching
-title: "75 year anniversary of the Turing Test"
-description: 2025 · undergraduates · Mt Holyoke
+title: "The Turing Test and its legacy"
+description: 2025 · undergraduates · Mt Holyoke College
 img: assets/img/thumbnails/turing.png
 category: misc
 ---

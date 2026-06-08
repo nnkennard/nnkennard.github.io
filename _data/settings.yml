@@ -1,8 +1,8 @@
 menu:
-- {name: 'publications', url: '/pages/publications'}
-- {name: 'teaching', url: '/pages/teaching'}
-- {name: 'cv', url: '/pages/cv'}
-- {name: 'contact', url: '/pages/contact'}
+- {name: 'publications', url: '/publications'}
+- {name: 'teaching', url: '/teaching'}
+- {name: 'cv', url: '/cv'}
+- {name: 'contact', url: '/contact'}
 
 social:
 - { name: 'Email', link: 'mailto:kennard@cs.umass.edu'}

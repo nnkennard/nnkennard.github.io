@@ -1,6 +1,7 @@
 ---
 layout: page
-title: "contact"
+title: contact
+permalink: /contact/
 ---
 
 (and other links)

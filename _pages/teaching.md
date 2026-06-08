@@ -1,8 +1,7 @@
 ---
 layout: page
 title: teaching
-nav: true
-nav_order: 1
+permalink: /teaching/
 ---
 
 Here are some artifacts I'm proud of from prior teaching opportunities.
