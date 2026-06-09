@@ -4,18 +4,9 @@
       <span class="fs-5">{{ site.title }}</span>
     </a>
   </div>
-  <nav class="d-inline-flex  mt-md-0 ms-md-auto">
-
-    {{permalink}}
+  <nav class="d-inline-flex  align-items-center mt-md-0 ms-md-auto">
     {% for item in site.data.settings.menu %}
-
-      {% if page.permalink == '/' %}
-        {% assign linkcolor = "#c06c84"%}
-      {% else %}
-        {% assign linkcolor = "#404040"%}
-      {% endif %}
-
-      <a class="me-3 py-2 text-decoration-none" style="{{ linkcolor | prepend: 'color:' | append: ';'}}" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
+      <a class="me-3 py-2 text-decoration-none" href="{{ site.github.url }}{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
   </nav>
 </header>

@@ -1,6 +1,6 @@
 $backgroundColor: #ffffff;
 $bodyColor: #404040;
-$linkColor: #c06c84;
+$linkColor: #6c5b7b;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
@@ -41,13 +41,12 @@ strong {
 
 body a {
   color: $linkColor;
-  text-decoration: none;
 
 }
 
 a:focus,
 a:hover {
-  color: #6c5b7b;
+  color: #c06c84;
   text-decoration: none;
 }
 
