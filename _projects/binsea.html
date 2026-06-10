@@ -1,0 +1,159 @@
+---
+---
+<HTML>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.4/css/bulma.min.css">
+    <title> Search demo </title>
+
+</head>
+
+<body>
+    <style>
+
+        .revealed {
+            background-color: #a79db0;
+        }
+        .custom {
+            width: 100px !important;
+        }
+        .a:link {
+            color:#a79db0;
+        }
+    </style>
+    <br><br>
+    <section>
+
+        <div class="column is-10 is-offset-1">
+
+            Your job is to find the number: <b><span id="needle"> </span></b> <br>
+
+            Number of clicks so far: <span id="click_count">0</span> <br> <br>
+
+            This array is <span id='sorted_message'> </span> <br> <br>
+
+            <span id="congrats"> </span> <br> 
+
+        </div><!-- /column-->
+        <div class="column is-10 is-offset-1" id="button_container">
+           <!-- DON'T DELETE ME! I'M SUPPOSED TO BE EMPTY!-->
+        </div><!-- /column-->
+        <div class="column is-10 is-offset-1">
+            <div class='button' onclick="setup(false)" id="unsorted_button">
+                    New unsorted array</div>
+            <div class='button' onclick="setup(true)" id='sorted_button'>
+                    New sorted array</div><br> <br>
+
+        Made by  <a href="http://nnkennard.github.io" style="color: #C06C84;">Neha Kennard</a> for CICS 160 at UMass Amherst.
+        </div><!-- /column-->
+    </section>
+
+
+
+<script>
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+
+    haystack_size = 30
+    needle = 0
+    haystack = []
+
+    sorted_message = "<b>sorted</b>. Try binary search!"
+    unsorted_message = "<b>unsorted</b>. Linear search is your best bet."
+
+    function setup(sort) {
+
+        // Clean up information
+        document.getElementById("congrats").innerHTML = ""
+        document.getElementById("click_count").innerHTML = 0
+        sorted_message_elem = document.getElementById("sorted_message")
+
+        // Get a selection of numbers
+        nums = Array.from(Array(haystack_size * 20).keys())
+        shuffleArray(nums)
+        haystack = nums.slice(0, haystack_size)
+
+        // Sort the numbers if necessary, add sorted message
+        if (sort) {
+            haystack = haystack.sort(function(a, b) {
+                return a - b
+            })
+            sorted_message_elem.innerHTML = sorted_message
+        } else {
+            sorted_message_elem.innerHTML = unsorted_message
+        }
+
+        // Choose a needle from the haystack
+        needle = haystack[Math.floor(haystack_size * Math.random())];
+        document.getElementById('needle').innerHTML = needle
+
+        populate_buttons()
+
+    }
+
+    function populate_buttons() {
+        button_container = document.getElementById('button_container')
+        button_container.innerHTML = ""
+        for (let i = 0; i < haystack_size; i++) {
+            button = document.createElement("div");
+            button.classList.add("button")
+            button.classList.add("custom")
+            button.id = "button_" + i
+            button.onclick = function() {
+                reveal(i)
+            }
+            button.innerHTML = i
+            button_container.append(button)
+        }
+
+    }
+
+    function reveal(index) {
+
+        // Reveal number at index
+        revealed_number = haystack[index]
+        this_button_elem = document.getElementById("button_" + index)
+        this_button_elem.innerHTML = revealed_number
+        this_button_elem.classList.add("revealed")
+        this_button_elem.onclick = function () {}
+
+        // Update click count
+        click_count_elem = document.getElementById("click_count")
+        click_count = parseInt(click_count_elem.innerHTML)
+        click_count += 1
+        click_count_elem.innerHTML = click_count
+
+        if (revealed_number == needle) { // End search
+            document.getElementById("congrats").innerHTML = (
+                "<b>Done!</b> You found <b> " + needle + "</b> in <b>"
+                + click_count + "</b> clicks.")
+
+            // Blank out all buttons
+            for (let i = 0; i < haystack_size; i++) {
+                button = document.getElementById("button_" + i);
+                if (button.classList.contains('revealed')) {} else {
+                    button.innerHTML = haystack[i]
+                    button.classList.add('is-static')
+                    button.onclick = function () {}
+                    //button.classList.add('is-info')
+                }
+            }
+
+        } else if (click_count == haystack_size) {
+            // This shouldn't happen
+            document.getElementById("congrats").innerHTML = needle + "was not in the array. "
+        }
+    }
+
+    setup(false)
+
+</script>
+
+</body>
+
+</HTML>
