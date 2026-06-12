@@ -4,4 +4,4 @@ title: redirect
 layout: page
 ---
 
-This page has moved. Go [here]({{"/projects/binsea/" | relative_url}})
+This page has moved. Please go [here]({{"/binsea/" | relative_url}}).
