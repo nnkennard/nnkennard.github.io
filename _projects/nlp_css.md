@@ -1,7 +1,9 @@
 ---
 layout: teaching
 title: Practical considerations for research using word embeddings
-description: 2021 · social scientists · online
+audience: "social scientists"
+year: 2021
+venue: online
 img: assets/img/thumbnails/nlp_css.png
 category: guest
 ---

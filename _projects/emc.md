@@ -1,10 +1,12 @@
 ---
 layout: teaching
 title: LLMs and the ELIZA effect
-description: "2023 · first-year undergraduates · UMass" 
+audience: "first-year undergraduates" 
 img: assets/img/thumbnails/emc.jpg
 importance: 2
 category: guest
+year: 2023
+venue: UMass
 ---
 
 <div class="row">

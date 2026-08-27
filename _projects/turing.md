@@ -1,7 +1,9 @@
 ---
 layout: teaching
 title: "The Turing Test and its legacy"
-description: 2025 · undergraduates · Mt Holyoke College
+year: 2025 
+venue: "Mt Holyoke College"
+audience: undergraduates
 img: assets/img/thumbnails/turing.png
 category: misc
 ---

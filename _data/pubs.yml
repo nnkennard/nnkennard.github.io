@@ -24,6 +24,7 @@ papers:
   doi: 10.18653/v1/2022.naacl-main.89
   code: https://github.com/nnkennard/DISAPERE
   pdf: https://aclanthology.org/2022.naacl-main.89.pdf
+  slides: true
 
 - key: nnk_2017
   title: "To Plan or not to Plan? Discourse Planning in Slot-Value Informed Sequence to Sequence Models for Language Generation"

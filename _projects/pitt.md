@@ -1,10 +1,12 @@
 ---
 layout: teaching
 title: Applications of word embeddings in social science
-description: 2024 · cs undergraduates · Pitt
 img: assets/img/thumbnails/pitt.jpeg
 importance: 1
 category: guest
+year: 2024
+audience: cs undergraduates
+venue: Pitt
 ---
 
 In 2024, I was invited to present a guest lecture in the [Human Language Technologies course at the University of Pittsburgh](https://imminent-honey-ff0.notion.site/CS-1671-2071-Spring-2024-28d63260b5bd4656af5331b8c66b0c99?pvs=74). Students in this course had recently learned about static word embeddings, but amidst the hubbub of news about generative AI, it felt necessary to provide additional context for why these "old-fashioned" models might be useful.

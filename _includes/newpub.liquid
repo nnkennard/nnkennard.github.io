@@ -1,5 +1,9 @@
 <div>
 
+<a href="https://doi.org/{{ entry.doi }}" target="_blank"><b>{{entry.title}}</b><br></a>
+{{entry.authors}} <br> {{entry.venueyear}} | 
+ 
+
 {% if entry.pdf %}
 
     {% if entry.pdf contains '://' %}
@@ -8,38 +12,30 @@
         {% assign pdfref = entry.key | append: '.pdf' | prepend: '/assets/pdf/papers/' | relative_url %}
     {% endif %}
 
+    <a href="{{ pdfref }}" target="_blank">pdf</a>
+    {% if entry.code or entry.poster or entry.slides %} | {% endif %}
+
 {% endif %}
-
-<a href="{{ pdfref }}" target="_blank"><b>{{entry.title}}</b><br></a>
-{{entry.authors}} <br>
-{{entry.venueyear}}
-
-
 
 {% if entry.code %}
 
-    [<a href="{{ entry.code }}">code</a>]
+    <a href="{{ entry.code }}">code</a>
+    {% if entry.poster or entry.slides %} | {% endif %}
 
 {% endif %}
 
 {% if entry.poster %}
 
-    [<a href="{{ entry.key | append: '.pdf' | prepend: '/assets/pdf/posters/' | relative_url }}">poster</a>]
+    <a href="{{ entry.key | append: '_poster.pdf' | prepend: '/assets/pdf/posters/' | relative_url }}">poster</a>
+    {% if  entry.slides %} | {% endif %}
 
 {% endif %}
 
 {% if entry.slides %}
 
-    [<a href="{{ entry.key | append: '.pdf' | prepend: '/assets/pdf/slides/' | relative_url }}" >slides</a>]
+    <a href="{{ entry.key | append: '_slides.pdf' | prepend: '/assets/pdf/slides/' | relative_url }}" >slides</a>
 
 {% endif %}
-
-{% if entry.doi %}
-
-    [<a href="https://doi.org/{{ entry.doi }}">doi</a>]
-
-{% endif %}
-
 
 <br> <br>
 </div>
