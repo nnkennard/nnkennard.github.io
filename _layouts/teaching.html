@@ -2,14 +2,33 @@
 layout: default
 ---
 
-<div class="row g-5 mb-2">
+<div class="row g-5">
   <div class="col-md-12">
-    <h2 > teaching </h2>
-    <h3 style="font-family: italic;"> {{ page.title }} </h3>
-    {{ content }}
+  <h1> teaching </h1>
+  <h2 style="font-family: italic;"> {{ page.title }} </h2>
+
+  <div class="row">
+    {% if page.embed_page %}
+      {{ content }}
+      <div style="text-align: center;">
+      <iframe class="shadow rounded" src={{page.embed_page| relative_url}} style="width: 80%; height: 500px;">
+      </div>
+    {% else %}
+      <div class="col">
+        {{ content }}
+        <br>
+      </div>
+      <div class="col">
+        {% if page.video_id %}
+        {% include yt_video.html class="img-fluid rounded z-depth-1" %}
+        {% elsif page.image %}
+        <img class="shadow rounded" src="/assets/img/{{ page.image}}" width="90%">
+        {% endif %}
+        <br>
+      </div>
+    {% endif %}
   </div>
   <div class="col-md-12 text-center">
-
     [<a href="{{ '/teaching/' | relative_url }}">back to teaching page</a>]
   </div>
 </div>

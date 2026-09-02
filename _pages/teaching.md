@@ -11,15 +11,14 @@ In Fall 2025, I taught COMSC 334: Artificial Intelligence (Mount Holyoke
 College). <br>
 
 Detailed teaching experience, including TAships and guest lectures, is listed
-in my [CV]({{ "/cv/" | relative_url }}). Below, I've included some artifacts
-I'm proud of from various teaching opportunities. 
+in my [CV]({{ "/cv/" | relative_url }}).
 
-<div class="mb-1 mt-5">
-
-<h3> guest lectures </h3>
+Below, I've shared some artifacts I'm proud of from various teaching opportunities. 
 
 
-<div class="row">
+
+<div class="row mt-5">
+<h2> guest lectures </h2>
 {% for project in site.projects %}
 
 {% if project.category == 'guest' %}
@@ -31,20 +30,21 @@ I'm proud of from various teaching opportunities.
 
 </div>
 
-<!-- 
+<!--div class="row mt-5">
+<h2> in-class activities </h2>
 {% for project in site.projects %}
 
-{% if project.category == 'guest' %}
+{% if project.category == 'activity' %}
     {% include card.html %}
 
 {% endif %}
 
 {% endfor %}
- -->
-</div>
-<div class="mb-1 mt-5">
 
-<h3> miscellaneous </h3>
+</div-->
+<div class="row mt-5">
+
+<h2> miscellaneous </h2>
 
 {% for project in site.projects %}
 

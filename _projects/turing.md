@@ -4,9 +4,13 @@ title: "The Turing Test and its legacy"
 year: 2025 
 venue: "Mt Holyoke College"
 audience: undergraduates
-img: assets/img/thumbnails/turing.png
+thumbnail: turing.png
+image: turing.png
 category: misc
 ---
+
+
+[This poster in PDF format]({{ '/assets/pdf/teaching/nnk_turing.pdf' | relative_url }}){:target="_blank"}
 
 On the 75th anniversary of the publication of the Turing Test, we hoped to
 spark interdisciplinary conversations about artificial intelligence.
@@ -19,7 +23,3 @@ This poster was a collaboration with [Laura
 Sizer](https://www.mtholyoke.edu/directory/faculty-staff/laura-sizer)
 (Philosophy) and [Mara Breen](https://sites.google.com/mtholyoke.edu/mbreen/)
 (Psychology) at Mt. Holyoke College.
-
-
-<embed src="{{ '/assets/pdf/teaching/nnk_turing.pdf#zoom=FitH&toolbar=1000' | relative_url }}" type="application/pdf" width="100%" height="500px" />
-

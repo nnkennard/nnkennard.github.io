@@ -1,6 +1,13 @@
 ---
 papers:
 
+- key: nnk_2026
+  title: "Hands-Off or Hands-On? Variation in Area Chair Practices and Implications for AI Support"
+  authors: Ines Arous, <b>Neha Nayak Kennard</b>, Andrei Mircea, Emily Kuang, Jackie Chi Kit Cheung, Andrew McCallum
+  venueyear: accepted to AIES 2026
+  doi: 10.48550/arXiv.2608.07425
+  pdf: https://arxiv.org/pdf/2608.07425
+
 - key: nnk_2025
   title: How Values and Uncertainty Shape Scientific Advance in Peer Review
   authors: Daniel Scott Smith, <b>Neha Nayak Kennard</b>, Tianyu Du, and Daniel A. McFarland

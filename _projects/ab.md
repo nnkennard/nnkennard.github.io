@@ -1,12 +1,12 @@
 ---
 layout: teaching
-title: Applications of word embeddings in social science
-thumbnail: pitt.jpeg
-image: pitt.jpeg
-category: guest
-year: 2024
-audience: cs undergraduates
-venue: Pitt
+title: Alpha-beta pruning worksheet
+thumbnail: ab.jpeg
+image: ab.jpeg
+category: activity
+year: 2025
+audience: cs juniors and seniors
+venue: Mt. Holyoke College
 ---
 
 In 2024, I was invited to present a guest lecture in the [Human Language Technologies course at the University of Pittsburgh](https://imminent-honey-ff0.notion.site/CS-1671-2071-Spring-2024-28d63260b5bd4656af5331b8c66b0c99?pvs=74){:target="_blank"}. Students in this course had recently learned about static word embeddings, but amidst the hubbub of news about generative AI, it felt necessary to provide additional context for why these "old-fashioned" models might be useful.
