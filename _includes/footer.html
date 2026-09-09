@@ -1,13 +1,7 @@
 <footer class="pt-1 my-1 ps-3 text-muted border-top fixed-bottom">
   <div class="row">
   <div class="col-md-12">
-  This website borrows elements from:
-  {% for cred in site.data.settings.credits %}
-    <a style="color:#404040;" href="{{ cred.link }}">{{ cred.name }}</a>
-    {% unless forloop.last %}
-    ·
-    {% endunless %}
-  {% endfor %}
+  <a href="{{ '/this_site/' | relative_url }}">About this website</a>
   
   </div>
 </footer>
