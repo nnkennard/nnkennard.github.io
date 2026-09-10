@@ -3,11 +3,14 @@ layout: teaching
 title: Applications of word embeddings in social science
 thumbnail: pitt.jpeg
 image: pitt.jpeg
+key: pitt
 category: guest
 year: 2024
 audience: cs undergraduates
 venue: Pitt
 ---
+
+<div class='col-lg' markdown=1>
 
 In 2024, I was invited to present a guest lecture in the [Human Language Technologies course at the University of Pittsburgh](https://imminent-honey-ff0.notion.site/CS-1671-2071-Spring-2024-28d63260b5bd4656af5331b8c66b0c99?pvs=74){:target="_blank"}. Students in this course had recently learned about static word embeddings, but amidst the hubbub of news about generative AI, it felt necessary to provide additional context for why these "old-fashioned" models might be useful.
 
@@ -17,3 +20,12 @@ I presented an updated version of this lecture at the [NLP course at Pitt](https
 
 
 [Slides]({{ '/assets/pdf/teaching/nnk_pitt.pdf' | relative_url }}){:target="_blank"} for the 2025 version of this lecture.
+</div>
+<div class='col-lg'>
+
+<img class="shadow rounded" src="/assets/img/projects/{{page.key}}.png" width="100%">
+
+</div>
+
+
+

@@ -1,14 +1,16 @@
 ---
 layout: teaching
-title: LLMs and the ELIZA effect
-audience: "first-year undergraduates (both CS and non-CS)" 
-thumbnail: emc.jpg
-category: guest
+title: "LLMs and the ELIZA effect"
 year: 2023
 venue: UMass
+audience: "first-year undergraduates (various majors)" 
+key: emc
+thumbnail: emc.jpg
+category: guest
 video_id: IRt89NYSXjw
 ---
 
+<div class='col-lg' markdown=1>
 
 I was invited to give a lecture about ChatGPT a UMass First Year Seminar entitled Exploring Modern Computing. 
 It was challenging to come up with a way to share meaningful insights about
@@ -24,3 +26,14 @@ Pouryousef](https://se.linkedin.com/in/shahrooz-pouryousef-6a5440158){:target="_
 about LLMs in society. 
 
 [Slides]({{ '/assets/pdf/teaching/nnk_emc.pdf' | relative_url}}){:target="_blank"}.
+
+</div>
+<div class='col-lg'>
+
+<img class="shadow rounded" src="/assets/img/projects/{{page.key}}.png" width="100%">
+
+</div>
+<div class='col-lg-10 offset-lg-1'>
+    <br>
+    {% include yt_video.html class="img-fluid rounded z-depth-1" %}
+</div>
