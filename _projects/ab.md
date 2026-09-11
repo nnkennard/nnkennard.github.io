@@ -3,7 +3,7 @@ layout: teaching
 title: Alpha-beta pruning worksheet
 thumbnail: ab.jpeg
 image: ab.jpeg
-category: activity
+category: activity_blerp
 year: 2025
 audience: cs juniors and seniors
 venue: Mt. Holyoke College

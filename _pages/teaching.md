@@ -30,7 +30,7 @@ Below, I've shared some artifacts I'm proud of from various teaching opportuniti
 
 </div>
 
-<!--div class="row mt-5">
+<div class="row mt-5">
 <h2> in-class activities </h2>
 {% for project in site.projects %}
 
@@ -41,7 +41,7 @@ Below, I've shared some artifacts I'm proud of from various teaching opportuniti
 
 {% endfor %}
 
-</div-->
+</div>
 <div class="row mt-5">
 
 <h2> miscellaneous </h2>
