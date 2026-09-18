@@ -5,7 +5,6 @@ audience: "first- and second- year cs undergraduates"
 year: 2026
 venue: UMass
 thumbnail: binsea.png
-key: binsea
 category: activity
 ---
 <div class="col-lg"  markdown="1">

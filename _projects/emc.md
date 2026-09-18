@@ -4,7 +4,6 @@ title: "LLMs and the ELIZA effect"
 year: 2023
 venue: UMass
 audience: "first-year undergraduates (various majors)" 
-key: emc
 thumbnail: emc.jpg
 category: guest
 video_id: IRt89NYSXjw
@@ -30,7 +29,7 @@ about LLMs in society.
 </div>
 <div class='col-lg'>
 
-<img class="shadow rounded" src="/assets/img/projects/{{page.key}}.png" width="100%">
+<img class="shadow rounded" src="/assets/img/projects/emc.png" width="100%">
 
 </div>
 <div class='col-lg-10 offset-lg-1'>

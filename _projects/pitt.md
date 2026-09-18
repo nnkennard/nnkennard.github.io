@@ -2,8 +2,6 @@
 layout: teaching
 title: Applications of word embeddings in social science
 thumbnail: pitt.jpeg
-image: pitt.jpeg
-key: pitt
 category: guest
 year: 2024
 audience: cs undergraduates
@@ -23,7 +21,7 @@ I presented an updated version of this lecture at the [NLP course at Pitt](https
 </div>
 <div class='col-lg'>
 
-<img class="shadow rounded" src="/assets/img/projects/{{page.key}}.png" width="100%">
+<img class="shadow rounded" src="/assets/img/projects/pitt.png" width="100%">
 
 </div>
 

@@ -1,19 +1,32 @@
 ---
 layout: teaching
-title: Alpha-beta pruning worksheet
-thumbnail: ab.jpeg
-image: ab.jpeg
-category: activity_blerp
+title: Alpha-beta pruning
+thumbnail: ab.png
+category: activity
 year: 2025
 audience: cs juniors and seniors
 venue: Mt. Holyoke College
 ---
 
-In 2024, I was invited to present a guest lecture in the [Human Language Technologies course at the University of Pittsburgh](https://imminent-honey-ff0.notion.site/CS-1671-2071-Spring-2024-28d63260b5bd4656af5331b8c66b0c99?pvs=74){:target="_blank"}. Students in this course had recently learned about static word embeddings, but amidst the hubbub of news about generative AI, it felt necessary to provide additional context for why these "old-fashioned" models might be useful.
 
-To demonstrate this, I presented [Gennaro and Ash's excellent 2022 manuscript](https://academic.oup.com/ej/article/132/643/1037/6490125){:target="_blank"} exploring rhetoric in US congressional debates. This paper showed students an important application of static word embeddings outside mainstream NLP.
+<div class='col-lg' markdown=1>
 
-I presented an updated version of this lecture at the [NLP course at Pitt](https://imminent-honey-ff0.notion.site/CS-2731-ISSP-2230-Spring-2025-28d63260b5bd4656af5331b8c66b0c99){:target="_blank"} in 2025. Thank you [Lorraine Li](https://lorraine333.github.io/){:target="_blank"} for this generous invitation!
+When teaching alpha-beta pruning in COMSC 334: Artificial Intelligence, I struggled to provide the students with an example that was (1) large enough to be nontrivial, (2) small enough that a walkthrough would not take more than a few minutes, yet (3) not so small that students could mentally solve the minimax problem and sidestep the intended activity.
 
+I leveraged the strengths of the physical medium, creating an interactive worksheet in which a paper flap obscures certain values, simulating the high cost of calculating them. This allows students to walk through the alpha beta pruning algorithm in an environment that closely mimics the information that will be available (and unavailable) to them when writing their alpha-beta pruning method in their Pac-Man project.
 
-[Slides]({{ '/assets/pdf/teaching/nnk_pitt.pdf' | relative_url }}){:target="_blank"} for the 2025 version of this lecture.
+<div class="text-center">
+<img class="shadow rounded" src="{{ '/assets/img/thumbnails/ab.png' | relative_url
+}}" width="80%">
+</div>
+
+<br>
+[Link to the worksheet]({{ '/assets/pdf/teaching/nnk_ab_worksheet_v1.2.pdf' | relative_url }}){:target="_blank"}.
+</div>
+<div class='col-lg'>
+
+<img class="shadow rounded" src="{{ '/assets/img/projects/ab.jpg' | relative_url
+}}" width="100%">
+
+</div>
+

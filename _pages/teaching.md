@@ -15,44 +15,16 @@ in my [CV]({{ "/cv/" | relative_url }}).
 
 Below, I've shared some artifacts I'm proud of from various teaching opportunities. 
 
-
-
-<div class="row mt-5">
-<h2> guest lectures </h2>
-{% for project in site.projects %}
-
-{% if project.category == 'guest' %}
-    {% include card.html %}
-
-{% endif %}
-
-{% endfor %}
-
-</div>
+{% assign sorted_projects = site.projects | sort: 'year' | reverse%}
+{% for cat in site.data.settings.categories %}
 
 <div class="row mt-5">
-<h2> in-class activities </h2>
-{% for project in site.projects %}
-
-{% if project.category == 'activity' %}
-    {% include card.html %}
-
-{% endif %}
+    <h2> {{cat.title}} </h2>
+    {% for project in sorted_projects %}
+        {% if project.category == cat.key %}
+            {% include card.html %}
+        {% endif %}
+    {% endfor %}
+</div>
 
 {% endfor %}
-
-</div>
-<div class="row mt-5">
-
-<h2> miscellaneous </h2>
-
-{% for project in site.projects %}
-
-{% if project.category == 'misc' %}
-    {% include card.html %}
-
-{% endif %}
-
-{% endfor %}
-
-</div>

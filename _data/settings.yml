@@ -15,3 +15,8 @@ credits:
 - { name: 'the academic jekyll template', link: 'https://github.com/LeNPaul/academic'}
 - { name: 'al-folio', link: 'https://github.com/alshedivat/al-folio'}
 - { name: 'Jon Barron', link: 'https://github.com/jonbarron/jonbarron.github.io/'}
+
+categories:
+- { key: 'guest', title: 'guest lectures'}
+- { key: 'activity', title: 'in-class activities'}
+- { key: 'misc', title: 'miscellaneous'}

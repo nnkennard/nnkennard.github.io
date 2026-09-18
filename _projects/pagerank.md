@@ -2,7 +2,6 @@
 layout: teaching
 title: PageRank
 thumbnail: pagerank.png
-key: pagerank
 category: activity
 year: 2022
 audience: cs juniors and seniors
@@ -29,7 +28,7 @@ Tomorrow's Faculty with Jake Goldman, Qizheng Yang, and Cuong Than.
 </div>
 <div class='col-lg'>
 
-<img class="shadow rounded" src="/assets/img/projects/{{page.key}}.png" width="100%">
+<img class="shadow rounded" src="/assets/img/projects/pagerank.png" width="100%">
 
 </div>
 

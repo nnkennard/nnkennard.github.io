@@ -4,7 +4,6 @@ title: "Practical considerations for research using word embeddings"
 year: 2021
 venue: online
 audience: "social scientists"
-key: nlp_css
 thumbnail: nlp_css.png
 category: guest
 video_id: qP9-jF8w13c
@@ -21,7 +20,7 @@ Thank you [Katie](https://kakeith.github.io){:target="_blank"} and [Ian](https:/
 </div>
 <div class='col-lg'>
 
-<img class="shadow rounded" src="/assets/img/projects/{{page.key}}.png" width="100%">
+<img class="shadow rounded" src="/assets/img/projects/nlp_css.png" width="100%">
 
 </div>
 <div class='col-lg-10 offset-lg-1'>

@@ -4,9 +4,7 @@ title: "The Turing Test and its legacy"
 year: 2025 
 venue: "Mt Holyoke College"
 audience: "undergraduates (various majors)"
-key: turing
 thumbnail: turing.png
-image: turing.png
 category: misc
 ---
 
@@ -29,6 +27,6 @@ Sizer](https://www.mtholyoke.edu/directory/faculty-staff/laura-sizer)
 </div>
 <div class='col-lg'>
 
-<img class="shadow rounded" src="/assets/img/projects/{{page.key}}.png" width="100%">
+<img class="shadow rounded" src="/assets/img/projects/turing.png" width="100%">
 
 </div>
