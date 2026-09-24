@@ -1,7 +1,9 @@
-<div class="row border-bottom mt-5">
-	<div class="col-4 text-center"> <img class="shadow rounded" src="{{ project.img | relative_url}}" width="80%"> <br> <br></div>
+<div class="row border-bottom mt-2">
+	<div class="col-4 text-center"> <img class="shadow rounded" src="/assets/img/thumbnails/{{ project.thumbnail | relative_url}}" width="80%"> <br> <br></div>
 	<div class="col-8">
-		<b><a href="{{ project.url | relative_url }}"> {{ project.title }} </a></b>
-		<br> {{project.description}}
+		<b><a href="{{ project.url | relative_url }}"> {{ project.title }}
+        </a></b> <br>
+        {{project.year}} · {{project.venue}} <br>
+        <i>developed for:&nbsp;</i> {{project.audience}}
 	</div>
 </div>

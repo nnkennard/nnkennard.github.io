@@ -1,15 +1,17 @@
 ---
-layout: default
+layout: wide
 ---
 
-<div class="row g-5 mb-2">
+<div class="row g-5">
   <div class="col-md-12">
-    <h2 > teaching </h2>
-    <h3 style="font-family: italic;"> {{ page.title }} </h3>
-    {{ content }}
+  <h1> teaching </h1>
+  <h2 style="font-family: italic;"> {{ page.title }} </h2>
+
+  <div class="row">
+    {{content}}
   </div>
   <div class="col-md-12 text-center">
-
+    <br>
     [<a href="{{ '/teaching/' | relative_url }}">back to teaching page</a>]
   </div>
 </div>

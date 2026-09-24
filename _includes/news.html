@@ -1,0 +1,9 @@
+<h1> news </h1>
+
+  {% for item in site.data.news.news %}
+
+  {{item.date }}: {{item.note}}
+  <br>
+  {% endfor %}
+
+

@@ -27,7 +27,14 @@ permalink: /binsea/
 
         <div class="column is-10 is-offset-1">
 
-            Your job is to find the number: <b><span id="needle"> </span></b> <br>
+            <h1 class="title is-3"> Binary and linear search </h1>
+
+            Your job is to find the number: <b><span id="needle"> </span></b>
+            <br> <br>
+
+            Use linear search or binary search to determine which index of the
+            'array' to check. Click a button to reveal the value at that index.
+            <br> <br>
 
             Number of clicks so far: <span id="click_count">0</span> <br> <br>
 
