@@ -1,3 +1,14 @@
+news:
+- date: Oct 2026
+  note: "I'll be presenting a poster at AIES 2026 in Malmö, Sweden."
+- date: Sep 2026
+  note: "This fall, I will TA for CICS 127: Public Interest Technology."
+- date: Aug 2026
+  note: I passed my proposal and I'm finally ABD!
+- date: Aug 2026
+  note: Paper accepted to AIES 2026.
+
+
 menu:
 - {name: 'publications', url: '/publications'}
 - {name: 'teaching', url: '/teaching'}
@@ -10,11 +21,6 @@ social:
 - { name: 'LinkedIn', link: 'https://www.linkedin.com/in/neha-kennard-53a563a1/'}
 - { name: 'Google Scholar', link: 'https://scholar.google.com/citations?user=RpIHn88AAAAJ'}
 - { name: 'Semantic Scholar', link: 'https://www.semanticscholar.org/author/Neha-Nayak-Kennard/144012209'}
-
-credits:
-- { name: 'the academic jekyll template', link: 'https://github.com/LeNPaul/academic'}
-- { name: 'al-folio', link: 'https://github.com/alshedivat/al-folio'}
-- { name: 'Jon Barron', link: 'https://github.com/jonbarron/jonbarron.github.io/'}
 
 categories:
 - { key: 'guest', title: 'guest lectures'}

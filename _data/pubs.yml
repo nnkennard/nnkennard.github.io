@@ -7,6 +7,7 @@ papers:
   venueyear: accepted to AIES 2026
   doi: 10.48550/arXiv.2608.07425
   pdf: https://arxiv.org/pdf/2608.07425
+  poster: true
 
 - key: nnk_2025
   title: How Values and Uncertainty Shape Scientific Advance in Peer Review
